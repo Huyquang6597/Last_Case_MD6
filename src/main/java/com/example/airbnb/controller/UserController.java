@@ -1,8 +1,8 @@
 package com.example.airbnb.controller;
 
-import com.example.airbnb.model.JwtResponse;
-import com.example.airbnb.model.Role;
-import com.example.airbnb.model.User;
+import com.example.airbnb.model.user.JwtResponse;
+import com.example.airbnb.model.user.Role;
+import com.example.airbnb.model.user.User;
 import com.example.airbnb.service.RoleService;
 import com.example.airbnb.service.UserService;
 import com.example.airbnb.service.impl.JwtService;

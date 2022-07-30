@@ -1,4 +1,4 @@
-package com.example.airbnb.model;
+package com.example.airbnb.model.user;
 
 import org.springframework.security.core.GrantedAuthority;
 

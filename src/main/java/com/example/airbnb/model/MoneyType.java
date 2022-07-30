@@ -1,24 +1,19 @@
 package com.example.airbnb.model;
 
-import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.io.Serializable;
+import javax.persistence.*;
 
 @Entity
-@Data
-public class Role implements Serializable {
-    private static final long serialVersionUID = 1L;
+@Table(name = "money_type")
+public class MoneyType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(unique = true, nullable = false)
     private String name;
 
-    public static long getSerialVersionUID() {
-        return serialVersionUID;
+    public MoneyType() {
     }
 
     public Long getId() {

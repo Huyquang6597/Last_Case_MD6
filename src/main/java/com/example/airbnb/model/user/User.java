@@ -1,13 +1,11 @@
-package com.example.airbnb.model;
+package com.example.airbnb.model.user;
 
-import org.hibernate.annotations.NaturalId;
+import com.example.airbnb.model.user.Role;
 
 import javax.persistence.*;
-import javax.validation.constraints.Email;
 
 import java.io.Serializable;
 
-import java.util.List;
 import java.util.Set;
 
 @Entity

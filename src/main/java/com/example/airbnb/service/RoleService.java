@@ -1,7 +1,7 @@
 package com.example.airbnb.service;
 
 
-import com.example.airbnb.model.Role;
+import com.example.airbnb.model.user.Role;
 
 
 public interface RoleService {

@@ -1,7 +1,7 @@
 package com.example.airbnb.service.impl;
 
-import com.example.airbnb.model.User;
-import com.example.airbnb.model.UserPrinciple;
+import com.example.airbnb.model.user.User;
+import com.example.airbnb.model.user.UserPrinciple;
 import com.example.airbnb.repository.UserRepository;
 import com.example.airbnb.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

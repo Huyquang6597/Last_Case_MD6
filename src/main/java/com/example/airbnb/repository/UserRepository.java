@@ -1,7 +1,7 @@
 package com.example.airbnb.repository;
 
 
-import com.example.airbnb.model.User;
+import com.example.airbnb.model.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

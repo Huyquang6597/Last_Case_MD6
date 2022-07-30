@@ -1,6 +1,6 @@
 package com.example.airbnb.service;
 
-import com.example.airbnb.model.User;
+import com.example.airbnb.model.user.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 

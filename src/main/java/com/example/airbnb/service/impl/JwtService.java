@@ -1,7 +1,7 @@
 package com.example.airbnb.service.impl;
 
 
-import com.example.airbnb.model.UserPrinciple;
+import com.example.airbnb.model.user.UserPrinciple;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
